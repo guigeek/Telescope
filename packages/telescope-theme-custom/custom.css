@@ -1,0 +1,97 @@
+.post:hover{
+  background: #ccf4ff;
+  opacity: 1;
+}
+
+.post {
+  border-bottom: none;
+}
+
+body {
+  background: #ffffff;
+}
+
+.posts-list .post-rank .post-rank-inner {
+  display: none;
+}
+
+.custom-banner{
+  background: #c4e6ef;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.posts-list .post-thumbnail {
+  display: none;
+}
+
+
+body, textarea, input, button, input[type="submit"], input[type="button"]{
+	font-family:"Montserrat", sans-serif;
+}
+body, textarea, input{
+	color:$text;
+	line-height:1.6;
+}
+.post-title, .header, .post-rank, .button{
+  font-family:"Montserrat", sans-serif;
+}
+
+h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+h3{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.small{
+	font-size: 80%;
+	color:$light-text;
+}
+strong{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}
+
+.post-heading .post-title {
+  font-weight: bold;
+}
+
+screen .post-heading .post-title {
+  font-size: 20px;
+}
+
+.posts-day-heading {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.post-upvote .upvote-link i {
+  opacity: 1;
+  border-radius: 3px;
+  width: 34px;
+  height: 44px;
+  background: #edeceb;
+  border: none;
+  box-shadow: 0 1px 0 0 rgba(83,69,64,0.3),0 1px 1px 0 rgba(0,0,0,0.2);
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+.post-upvote .upvote-link.voted i.icon-check {
+  border: none;
+}
+
+/* .post-meta {
+  display: none;
+} */
+
+
+.posts-wrapper {
+  margin-bottom: 40px;
+}
