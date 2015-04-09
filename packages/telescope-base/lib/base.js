@@ -36,28 +36,29 @@ STATUS_REJECTED=3;
 
 // array containing nav items; initialize with views menu and admin menu
 primaryNav = [
-  {
-    template: 'viewsMenu',
-    order: 10
-  },
-  {
-    template: 'adminMenu',
-    order: 20
-  }
+
 ];
 
 secondaryNav = [
   {
-    template: 'userMenu',
+    template: 'search',
     order: 10
   },
   {
-    template:'notificationsMenu',
+    template: 'userMenu',
     order: 20
   },
   {
-    template: 'submitButton',
+    template:'notificationsMenu',
     order: 30
+  },
+  {
+    template: 'submitButton',
+    order: 40
+  },
+  {
+    template: 'adminMenu',
+    order: 50
   }
 ];
 

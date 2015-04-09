@@ -3,6 +3,22 @@
   opacity: 1;
 }
 
+
+.grid {
+  max-width: 960px;
+  min-width: 300px;
+}
+
+header .grid {
+  height: inherit;
+}
+
+.header .logo-image {
+  height: initial;
+  text-align: left;
+  padding-left: 10px;
+}
+
 .post {
   border-bottom: none;
 }
